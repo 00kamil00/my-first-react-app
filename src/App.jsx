@@ -2,6 +2,7 @@ import './App.css'
 import { Greeting } from './Greeting'
 import { Food } from './Food'
 import { Button } from './Button'
+import { Animals } from './Animals'
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Button />
       <Button text="Don't Click Me!" color="red" />
       <Button fontSize={20} />
+      <hr />
+      <Animals />
     </>
   )
 }
