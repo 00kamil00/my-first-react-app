@@ -3,6 +3,7 @@ import { Greeting } from './Greeting'
 import { Food } from './Food'
 import { Button } from './Button'
 import { Animals } from './Animals'
+import { TodoList } from './Todo'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Button fontSize={20} />
       <hr />
       <Animals />
+      <hr />
+      <TodoList />
     </>
   )
 }
