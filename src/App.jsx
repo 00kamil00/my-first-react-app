@@ -5,6 +5,7 @@ import { Button } from './Button'
 import { Animals } from './Animals'
 import { TodoList } from './Todo'
 import { Person } from './Person'
+import { CustomInput } from './CustomInput'
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <TodoList />
       <hr />
       <Person />
+      <hr />
+      <CustomInput />
     </>
   )
 }
